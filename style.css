@@ -1,0 +1,19 @@
+body {
+    background: #555;
+  }
+  
+  .body_content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+  img {
+      width: 150px;
+        height: 200px;
+        float: left;
+        margin: 25px 5px;
+  }
+  .contact_info{
+      float: right;
+  }
