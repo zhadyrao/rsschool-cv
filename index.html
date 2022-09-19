@@ -38,20 +38,22 @@
     </ul>
 
     <h3>Code Example</h3>
-    <pre>function highAndLow(numbers){
-        const arr = numbers.split(" ");
-        let low = arr[0];
-        let high = arr[0];
-        for(let i = 0; i &lt; arr.length; i++) {
-            if(Number(arr[i]) &gt; high) {
-                high = arr[i];
+    <code>
+        function highAndLow(numbers){
+            const arr = numbers.split(" ");
+            let low = arr[0];
+            let high = arr[0];
+            for(let i = 0; i &lt; arr.length; i++) {
+                if(Number(arr[i]) &gt; high) {
+                    high = arr[i];
+                }
+                if(Number(arr[i]) &lt; low) {
+                    low = arr[i];
+                }
             }
-            if(Number(arr[i]) &lt; low) {
-                low = arr[i];
-            }
+            return high + " " + low;
         }
-        return high + " " + low;
-    }</pre>
+    </code>
     <h3>Education</h3>
     <ul>
         <li>Bachelor: Kazakh British technical universuty</li>
